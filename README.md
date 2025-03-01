@@ -1,8 +1,18 @@
 Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Daniel Kanybekov
 ========================================================================================================================================
 
-# 🌫️ About Me:
-💡 I'm currently working as a freelancer on Upwork<br>🤝 I'm open to collaborating on Backend and Web scraping<br>🧠 I'm learning Advanced Backend techs
+# 🌫️ About Me  
+
+💡 Full-stack developer and web scraper, crafting efficient and scalable solutions.  
+🚀 Passionate about tackling complex freelance projects and pushing my limits.  
+🛠️ Experienced in backend development with Django, FastAPI, and Flask.  
+🎨 Building modern UIs with React, Vue.js, and Nuxt.js for seamless user experiences.  
+🗄️ Managing data with PostgreSQL, Redis, and scalable database solutions.  
+⚙️ Deploying and automating workflows with Docker, AWS, and Vercel.  
+📡 Optimizing performance with RabbitMQ, Celery, and async processing.  
+📍 Based in Kyrgyzstan (GMT+6).  
+📫 Open to collaboration—let’s create something innovative! 
+
 
 ## 🌐 Socials:
 <div align="left">
