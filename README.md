@@ -50,7 +50,7 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
   ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
   ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
   ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
-  ![MATLAB](https://img.shields.io/badge/matlab-%23FF0000.svg?style=for-the-badge&logo=matlab&logoColor=white)
+  ![MATLAB](https://img.shields.io/badge/matlab-%23FF8000.svg?style=for-the-badge&logo=mathworks&logoColor=white)
 </details>
 
 
