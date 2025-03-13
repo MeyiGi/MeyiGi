@@ -3,7 +3,7 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 
 # 🌫️ About Me  
 
-💡 Full-stack developer and web scraper, crafting efficient and scalable solutions.  
+💡 Full-stack developer and web scraper, crafting efficient and scalable solutions.     
 🚀 Passionate about tackling complex freelance projects and pushing my limits.  
 🛠️ Experienced in backend development with Django, FastAPI, and Flask.  
 🎨 Building modern UIs with React, Vue.js, and Nuxt.js for seamless user experiences.  
