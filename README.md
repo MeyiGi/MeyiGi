@@ -9,7 +9,7 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 🎨 Building modern UIs with React, Vue.js, and Nuxt.js for seamless user experiences.  
 🗄️ Managing data with PostgreSQL, Redis, and scalable database solutions.  
 ⚙️ Deploying and automating workflows with Docker, AWS, and Vercel.  
-📡 Optimizing performance with RabbitMQ, Celery, and async processing.  
+📡 Optimizing performance with RabbitMQ, Celery, and async processing.      
 📍 Based in Kyrgyzstan (GMT+6).  
 📫 Open to collaboration—let’s create something innovative! 
 
