@@ -51,6 +51,7 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
   ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
   ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
   ![MATLAB](https://img.shields.io/badge/matlab-%23FF8000.svg?style=for-the-badge&logo=mathworks&logoColor=white)
+  ![Verilog](https://img.shields.io/badge/verilog-%23000000.svg?style=for-the-badge&logo=verilog&logoColor=white)
 </details>
 
 
