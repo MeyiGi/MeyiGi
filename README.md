@@ -96,7 +96,7 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 
 <h2>📊 GitHub Stats:</h2>
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MeyiGi&amp;theme=dark&amp;hide_border=false&amp;include_all_commits=true&amp;count_private=true" alt="">
+  <img src="https://github-readme-stats.vercel.app/api?username=MeyiGi&theme=dark&hide_border=false&include_all_commits=false&count_private=false" alt="">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MeyiGi&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" />
 </div>
 
