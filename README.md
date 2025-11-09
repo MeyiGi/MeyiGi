@@ -54,7 +54,7 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
   ![MATLAB](https://img.shields.io/badge/matlab-%23FF8000.svg?style=for-the-badge&logo=mathworks&logoColor=white)
   ![Verilog](https://img.shields.io/badge/verilog-%23000000.svg?style=for-the-badge&logo=verilog&logoColor=white)
   ![AssemblyScript](https://img.shields.io/badge/assembly%20script-%23000000.svg?style=for-the-badge&logo=assemblyscript&logoColor=white)
-  ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white) 
+  ![Bash](https://img.shields.io/badge/Bash-%234EAA25.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 </details>
 
 
