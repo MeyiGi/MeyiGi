@@ -100,6 +100,7 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
  ![Jupyter](https://img.shields.io/badge/Jupyter-F37626.svg?style=for-the-badge&logo=Jupyter&logoColor=white)
  ![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
 
+</details>
 <details>
   <summary>🌐 Web Automation, Scraping & Testing</summary>
 
