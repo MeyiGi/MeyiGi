@@ -4,7 +4,7 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 # 🌫️ About Me  
 
 💡 Full-stack developer and Data engineer, crafting efficient and scalable solutions.     
-🚀 Passionate about tackling complex freelance projects and pushing my limits.  
+🚀 Passionate about tackling complex projects and pushing my limits.  
 🛠️ Experienced in backend development with Django, FastAPI, and Flask.  
 🎨 Building modern UIs with React, Vue.js, and Next.js for seamless user experiences.  
 🗄️ Managing data with PostgreSQL, Redis, Prisma, and scalable database solutions.  
@@ -122,19 +122,13 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 </picture>
 ---
 
-<h2>📊 GitHub Stats:</h2>
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MeyiGi&theme=dark&hide_border=false&include_all_commits=false&count_private=false" alt="">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MeyiGi&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" />
-</div>
 
+## 📊 GitHub Overview
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=meyigi&theme=dracula&no-frame=false&no-bg=true&margin-w=4)
+<p align="center">
+  <img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api?username=MeyiGi&show_icons=true&theme=material-palenight&hide_border=true" />
+  <img height="165" src="https://streak-stats.demolab.com?user=MeyiGi&theme=material-palenight&hide_border=true" />
+</p>
 
 ---
-[![](https://visitcount.itsvg.in/api?id=meyigi&icon=0&color=0)](https://visitcount.itsvg.in)
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
-
 ![Leetcode Stats](https://leetcard.jacoblin.cool/MeyiGi?theme=unicorn)
