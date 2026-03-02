@@ -1,0 +1,140 @@
+name: Metrics
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📌 Full metrics (main)
+        uses: lowlighter/metrics@latest
+        with:
+          user: MeyiGi
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+
+          # output
+          filename: assets/metrics.svg
+
+          # base sections
+          base: header, activity, community, repositories, metadata
+
+          # style
+          config_timezone: Asia/Bishkek
+          config_display: large
+          config_padding: 0, 8%
+          config_order: base.header, base.activity, base.community, base.repositories, base.metadata
+          config_twemoji: yes
+
+          # achievements
+          plugin_achievements: yes
+          plugin_achievements_threshold: C
+          plugin_achievements_secrets: yes
+          plugin_achievements_display: detailed
+
+          # languages (very detailed)
+          plugin_languages: yes
+          plugin_languages_limit: 10
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_analysis_timeout_repositories: 8
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_sections: most-used, recently-used
+          plugin_languages_indepth: yes
+          plugin_languages_recent_load: 300
+          plugin_languages_recent_days: 14
+          plugin_languages_ignored: html, css, jupyter notebook
+          plugin_languages_other: yes
+
+          # habits
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_habits_days: 14
+          plugin_habits_trim: yes
+
+          # lines of code / code frequency
+          plugin_lines: yes
+
+          # stars
+          plugin_stars: yes
+          plugin_stars_limit: 8
+
+          # notable contributions + repositories
+          plugin_notable: yes
+          plugin_notable_filter: stars:>20
+          plugin_notable_repositories: yes
+
+          # repos pinned + insights
+          plugin_repositories: yes
+          plugin_repositories_pinned: 6
+          plugin_repositories_featured: 6
+          plugin_repositories_order: featured, pinned, starred
+          plugin_repositories_affiliations: owner, collaborator, organization_member
+
+          # PRs / issues / discussions (activity deep)
+          plugin_followup: yes
+          plugin_followup_sections: repositories, user
+          plugin_followup_indepth: yes
+
+          plugin_issues: yes
+          plugin_issues_limit: 6
+
+          plugin_pull_requests: yes
+          plugin_pull_requests_limit: 6
+
+          # calendar
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+
+          # topics
+          plugin_topics: yes
+          plugin_topics_limit: 18
+          plugin_topics_mode: icons
+
+          # people / followers
+          plugin_people: yes
+          plugin_people_types: followers, following
+          plugin_people_limit: 18
+          plugin_people_size: 28
+
+      - name: 📈 Activity calendar (extra)
+        uses: lowlighter/metrics@latest
+        with:
+          user: MeyiGi
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          filename: assets/metrics-calendar.svg
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          config_timezone: Asia/Bishkek
+
+      - name: 🧠 Habits (extra)
+        uses: lowlighter/metrics@latest
+        with:
+          user: MeyiGi
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          filename: assets/metrics-habits.svg
+          base: ""
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_habits_days: 30
+          config_timezone: Asia/Bishkek
+
+      - name: 🗣️ Languages (extra)
+        uses: lowlighter/metrics@latest
+        with:
+          user: MeyiGi
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          filename: assets/metrics-languages.svg
+          base: ""
+          plugin_languages: yes
+          plugin_languages_indepth: yes
+          plugin_languages_limit: 12
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_sections: most-used
+          plugin_languages_ignored: html, css, jupyter notebook
